@@ -26,22 +26,22 @@ h1,h2{
     text-align: center;
 }
 h1{
-    margin-bottom: 90px;
     font-size: 50px;
 }
 h2{
     color: #4d4d4d;
     font-size: 38px;
-    margin-bottom: 60px;
 }
 h3{
     font-size: 32px;
     margin-bottom: 30px;
+    line-height: 48px;
 }
 p{
     font-family: "SCDream4";
     font-size: 18px;
     word-break: keep-all;
+    line-height: 30px;
 }
 p+p{
     margin-top: 30px;
@@ -60,6 +60,10 @@ header{
     width: 100%;
     max-width: 850px;
     margin: 100px auto 150px;
+}
+header img{
+    margin: 20px auto;
+    display: block;
 }
 section{
     display: flex;
@@ -96,22 +100,24 @@ article p{
     }
     h1{
         margin-bottom: 90px;
-        font-size: 30px;
+        font-size: 34px;
     }
     h2{
         color: #4d4d4d;
-        font-size: 24px;
-        margin-bottom: 60px;
+        font-size: 23px;
     }
     h3{
         font-size: 22px;
         margin-bottom: 30px;
+        line-height: 34px;
     }
     p{
         font-family: "SCDream4";
         font-size: 14px;
         word-break: keep-all;
         width: 100%;
+        letter-spacing: -0.07em;
+        line-height: 23px;
     }
     section{
         display: block;
