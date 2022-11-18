@@ -27,6 +27,7 @@ h1,h2{
 }
 h1{
     font-size: 50px;
+    margin-bottom: 100px;
 }
 h2{
     color: #4d4d4d;
@@ -54,7 +55,7 @@ img{
 main{
     width: 95%;
     max-width: 1100px;
-    margin: 0 auto 200px;
+    margin: 0 auto 150px;
 }
 header{
     width: 100%;
@@ -77,8 +78,13 @@ article{
     width: 50%;
     max-width: 500px;
 }
-article p{
+article p, footer p{
     color: #494949;
+}
+
+footer{
+    text-align: center;
+    margin-top: 130px;
 }
 
 .part3, .part5{
@@ -119,6 +125,9 @@ article p{
         letter-spacing: -0.07em;
         line-height: 23px;
     }
+    main{
+        margin-bottom: 100px;
+    }
     header img{
         width: 100%;
         height: auto;
@@ -129,5 +138,8 @@ article p{
     }
     article{
         width: 100%;
+    }
+    footer{
+        margin-top: 80px;
     }
 }
