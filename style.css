@@ -119,6 +119,10 @@ article p{
         letter-spacing: -0.07em;
         line-height: 23px;
     }
+    header img{
+        width: 100%;
+        height: auto;
+    }
     section{
         display: block;
         width: 100%;
