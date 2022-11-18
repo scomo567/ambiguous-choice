@@ -1,0 +1,123 @@
+@font-face {
+    font-family: "SCDream4";
+    src: url("./font/SCDream4.woff") format("woff");
+}
+@font-face {
+    font-family: "SCDream5";
+    src: url("./font/SCDream5.woff") format("woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "SCDream5", "Malgun Gothic", "맑은 고딕",
+    "Apple SD Gothic Neo", "돋움", dotum, sans-serif;
+    /* Prevent font scaling in landscape */
+    -webkit-text-size-adjust: none; /*Chrome, Safari, newer versions of Opera*/
+    -moz-text-size-adjust: none; /*Firefox*/
+    -ms-text-size-adjust: none; /*Ie*/
+    -o-text-size-adjust: none; /*old versions of Opera*/
+}
+
+h1,h2{
+    text-align: center;
+}
+h1{
+    margin-bottom: 90px;
+    font-size: 50px;
+}
+h2{
+    color: #4d4d4d;
+    font-size: 38px;
+    margin-bottom: 60px;
+}
+h3{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+p{
+    font-family: "SCDream4";
+    font-size: 18px;
+    word-break: keep-all;
+}
+p+p{
+    margin-top: 30px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+
+main{
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto 200px;
+}
+header{
+    width: 100%;
+    max-width: 850px;
+    margin: 100px auto 150px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section + section{
+    margin-top: 150px;
+}
+article{
+    width: 50%;
+    max-width: 500px;
+}
+article p{
+    color: #494949;
+}
+
+.part3, .part5{
+    flex-direction: row-reverse;
+}
+.mb{
+    display: none;
+}
+@media screen and (max-width: 767px){
+    .pc{
+        display: none;
+    }
+    .mb{
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 30px;
+
+    }
+    h1{
+        margin-bottom: 90px;
+        font-size: 30px;
+    }
+    h2{
+        color: #4d4d4d;
+        font-size: 24px;
+        margin-bottom: 60px;
+    }
+    h3{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
+    p{
+        font-family: "SCDream4";
+        font-size: 14px;
+        word-break: keep-all;
+        width: 100%;
+    }
+    section{
+        display: block;
+        width: 100%;
+    }
+    article{
+        width: 100%;
+    }
+}
